@@ -19,16 +19,16 @@ class MyStack{
         int top=(int)st.peek();
         st.pop();
         reverse(st); 
-        insertAtButtom(st, top);
+        insertAtBottom(st, top);
         
     }
-    public void insertAtButtom(Stack <Integer> st, int element){
+    public void insertAtBottom(Stack <Integer> st, int element){
         if (st.empty()) {
             st.push(element);
             return;
     }
         int top = st.pop();
-        insertAtButtom(st, element);
+        insertAtBottom(st, element);
         st.push(top);
     }
 }
