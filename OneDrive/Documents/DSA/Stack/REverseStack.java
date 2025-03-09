@@ -1,5 +1,5 @@
 import java.util.Stack;
-class MyStack{
+class MyStackReverse {
     public void addElement(){
         Stack<Integer> st=new Stack<Integer>();
         st.push(78);
@@ -31,10 +31,12 @@ class MyStack{
         insertAtBottom(st, element);
         st.push(top);
     }
+
+
 }
-public class REverseStack {
+public class ReverseStack {
     public static void main(String[] args) {
-        MyStack p = new MyStack();
+        MyStackReverse p = new MyStackReverse();
         p.addElement();
     }
 }

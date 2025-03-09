@@ -36,16 +36,18 @@ class MyStack {
             
         }
         if (flag==0) {
+            System.out.println(s);
             System.out.println("valid opening and closing bracket");
         }
         else{
+            System.out.println(s);
             System.out.println("Invalid opening and closing bracket");
         }
         
        
     }
 }
-public class BracketSeqence {
+public class BracketSequence {
     public static void main(String[] args) {
         MyStack p =new MyStack();
         p.validate();

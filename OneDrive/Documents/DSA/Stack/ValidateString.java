@@ -1,5 +1,5 @@
 import java.util.*;
-class MyStack {
+class MyStackToValidate {
     public void validate(){
         String s= "India";
         Stack <Character>  s1 = new Stack<Character>();
@@ -27,7 +27,7 @@ class MyStack {
 }
 public class ValidateString {
     public static void main(String[] args) {
-        MyStack p =new MyStack();
+        MyStackToValidate p = new MyStackToValidate();
         p.validate();
     }
     
