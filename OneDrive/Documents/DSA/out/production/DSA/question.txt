@@ -1,0 +1,4 @@
+where the closer variable is stored in js ?
+what is the use case of the closer in js ?
+what is the disadvantage of the closer in js ?
+what is RBAC ?
