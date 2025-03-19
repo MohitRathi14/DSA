@@ -29,8 +29,7 @@ public class Problem {
 
         // Process each element
         for (int i = 0; i < arr.length; i++) {
-            int current = stack.get(i);
-            int min = current;
+            int min = stack.get(i);
             boolean found = false;
 
             // Find the minimum element to the right
